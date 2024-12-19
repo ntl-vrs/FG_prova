@@ -19,7 +19,8 @@ header {
 }
 
 .logo {
-    height: 10%;
+    height: auto;
+    width: 50px; 
 }
 
 .nav-links {
@@ -30,6 +31,7 @@ header {
 .nav-links a {
     color: #515151;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .nav-links a:first-child {
@@ -41,6 +43,6 @@ header {
     color: white;
     font-weight: bold;
     font-style: italic;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 0px;
 }
