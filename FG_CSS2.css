@@ -19,7 +19,8 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: auto;
+    max-height: 80px;
 }
 
 .nav-links {
