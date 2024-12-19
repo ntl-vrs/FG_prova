@@ -43,8 +43,8 @@ header {
     color: white;
     font-weight: bold;
     font-style: italic;
-    padding: 0;
-    border-radius: 0 !important;
+    padding: 0px;
+    border-radius: 0px !important;
     box-sizing: border-box;
     border: none;
 }
