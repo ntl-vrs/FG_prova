@@ -8,8 +8,9 @@ header {
     justify-content: center;
     align-items: center;
     padding: 10px 0;
-    background-color: #ECECEC;
-    width: 100%;
+    background-color: #ECECEC !important;  /* Force apply with !important */
+    width: 100%; /* Ensure it spans full width */
+    height: 100px;  /* Ensure header has some height for visibility */
 }
 
 .header-content {
