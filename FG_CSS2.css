@@ -19,7 +19,8 @@ header {
 }
 
 .logo {
-    height: 10%;
+    height: auto;
+    width: 150px;
 }
 
 .nav-links {
