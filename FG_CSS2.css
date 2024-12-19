@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.logo {
+    height: 10%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #515151;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.phone-number {
+    background-color: #F86A42;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
