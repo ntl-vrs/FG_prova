@@ -96,7 +96,7 @@ header {
 .empresa-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     width: 100%;
 }
@@ -125,7 +125,7 @@ header {
 }
 
 .empresa-button {
-    display: inline-block;
+    display: block;
     background-color: #FAAE00;
     color: white;
     font-weight: bold;
@@ -133,6 +133,7 @@ header {
     border-radius: 0px;
     text-decoration: none;
     text-align: center;
+    margin: 20px auto;
 }
 
 .empresa-button:hover {
