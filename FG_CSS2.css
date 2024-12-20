@@ -76,3 +76,60 @@ header {
     height: auto;
     margin: 0;
 }
+
+.empresa {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.empresa-title {
+    color: #F86A42;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.empresa-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.empresa-image {
+    flex: 1;
+}
+
+.empresa-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.empresa-text {
+    flex: 1;
+    text-align: left;
+}
+
+.empresa-paragraph {
+    font-size: 16px;
+    color: #515151;
+    margin-bottom: 20px;
+}
+
+.empresa-button {
+    display: inline-block;
+    background-color: #FAAE00;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.empresa-button:hover {
+    background-color: #F86A42;
+}
