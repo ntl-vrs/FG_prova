@@ -1,40 +1,15 @@
-let currentSlide = 0;
+<script>
+    // Get the button and the images section
+    const teamButton = document.getElementById("teamButton");
+    const teamImages = document.getElementById("teamImages");
 
-function showSlide(index) {
-    const slides = document.querySelectorAll('.carousel-image');
-    const bullets = document.querySelectorAll('.bullet');
-
-    if (index < 0) {
-        currentSlide = slides.length - 1;
-    } else if (index >= slides.length) {
-        currentSlide = 0;
-    } else {
-        currentSlide = index;
-    }
-
-    slides.forEach(slide => slide.style.display = 'none');
-
-    slides[currentSlide].style.display = 'block';
-
-    bullets.forEach((bullet, i) => {
-        if (i === currentSlide) {
-            bullet.src = 'bullet-full.png'; // Full bullet for the current slide
+    // Add event listener to the button
+    teamButton.addEventListener("click", function() {
+        // Toggle the display of the images
+        if (teamImages.style.display === "none" || teamImages.style.display === "") {
+            teamImages.style.display = "block";
         } else {
-            bullet.src = 'bullet-hollow.png'; // Hollow bullets for other slides
+            teamImages.style.display = "none";
         }
     });
-}
-
-function nextSlide() {
-    showSlide(currentSlide + 1);
-}
-
-function prevSlide() {
-    showSlide(currentSlide - 1);
-}
-
-function goToSlide(index) {
-    showSlide(index);
-}
-
-showSlide(currentSlide);
+</script>
