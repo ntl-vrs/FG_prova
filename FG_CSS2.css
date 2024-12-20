@@ -1,4 +1,3 @@
-/*Geral*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -45,4 +44,8 @@ header {
     font-style: italic;
     padding: 10px 20px;
     border-radius: 0px;
+}
+
+.banner {
+    margin-top: 0;
 }
