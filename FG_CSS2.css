@@ -9,6 +9,7 @@ header {
     align-items: center;
     padding: 10px 0;
     background-color: #ECECEC;
+    margin-bottom: 0;
 }
 
 .header-content {
