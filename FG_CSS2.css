@@ -125,7 +125,7 @@ header {
 }
 
 .empresa-button {
-    display: block;
+    display: inline-block; /* Make it inline-block so it doesn't stretch */
     background-color: #FAAE00;
     color: white;
     font-weight: bold;
@@ -133,7 +133,9 @@ header {
     border-radius: 0px;
     text-decoration: none;
     text-align: center;
-    margin: 20px auto;
+    margin: 20px auto; /* Center the button */
+    max-width: 300px; /* Set a max-width to control its size */
+    width: auto; /* Allow the button to resize based on its content */
 }
 
 .empresa-button:hover {
