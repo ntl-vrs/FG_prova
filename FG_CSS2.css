@@ -146,3 +146,8 @@ header {
 .empresa-button:hover {
     background-color: #F86A42;
 }
+
+#teamImages img {
+    width: 30%;
+    margin: 0 10px;
+}
