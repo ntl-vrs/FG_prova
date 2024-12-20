@@ -179,9 +179,11 @@ footer {
 .footer-center {
     text-align: center;
     font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
 }
 
 .footer-right {
     text-align: right;
     font-style: italic;
+    font-weight: bold;
 }
