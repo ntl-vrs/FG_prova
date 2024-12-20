@@ -151,3 +151,37 @@ header {
     width: 30%;
     margin: 0 10px;
 }
+
+footer {
+    background-color: #ECECEC;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-center, .footer-right {
+    font-size: 14px;
+    color: #515151;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-right {
+    text-align: right;
+    font-style: italic;
+}
