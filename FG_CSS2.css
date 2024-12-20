@@ -116,16 +116,14 @@ header {
     flex: 1;
     text-align: left;
     margin-left: 20px;
-}
-
-.empresa-paragraph {
-    font-size: 16px;
-    color: #515151;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .empresa-button {
-    display: inline-block; /* Make it inline-block so it doesn't stretch */
+    display: inline-block;
     background-color: #FAAE00;
     color: white;
     font-weight: bold;
@@ -133,9 +131,16 @@ header {
     border-radius: 0px;
     text-decoration: none;
     text-align: center;
-    margin: 20px auto; /* Center the button */
-    max-width: 300px; /* Set a max-width to control its size */
-    width: auto; /* Allow the button to resize based on its content */
+    margin-top: 20px;
+    max-width: 300px;
+    width: auto;
+    align-self: center;
+}
+
+.empresa-paragraph {
+    font-size: 16px;
+    color: #515151;
+    margin-bottom: 20px;
 }
 
 .empresa-button:hover {
